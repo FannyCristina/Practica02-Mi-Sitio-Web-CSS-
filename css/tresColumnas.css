@@ -1,23 +1,31 @@
 .Encabezado {
+    height: 60%
     width: 99%;
     border: #1d4b4d 1px solid;
     margin: 0.25cm;
+    color: red;
+    font-size:15 px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman',Times,serif;
 }
 
 .Menu {
-    width: 25%;
+    width: 18%;
+    height: 500px;
     float: left;
-    border: red 1px solid;
+    border:black 1px solid;
     -webkit-border-radius: 20px;
-    background-color: #7B9DD5;
+    background-color:greenyellow;
+    line-height:  55px;
 }
 
 .Article {
     width: 50%;
+    height: 500px;
+    border: 1px blueviolet;
     float: left;
-    margin: 0.25cm;
-    border-collapse: separate;
-    border-spacing: 10px 5px;
+
+    
 }
 aside{
     width: 50%;
@@ -25,23 +33,22 @@ aside{
     margin: 0.25cm 
 }
 
-.Pie {
-    width: 100%;
-    float: left;
-    border: #1d4b4d 1px solid;
-}
+
 
 .Ima {
-    width: 20%;
-    height: 3.75cm;
-    float: right;
-    border: red 1px solid;
-    -webkit-border-radius: 20px;
-    background-color: #7B9DD5;
+ 
+    height: 500px;
+    float: left;
+    border:purple 1px solid;
+    width: 31.5%;
     
 }
-
-/*
+.Pie {
+ 
+    height: 40px;
+    border: #1d4b4d 1px solid;
+    clear: both;
+}
 body{
-    background-color: #201f22;
+    background-color: pink;
 }
