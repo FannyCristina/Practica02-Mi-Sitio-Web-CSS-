@@ -1,0 +1,47 @@
+.Encabezado {
+    width: 99%;
+    border: #1d4b4d 1px solid;
+    margin: 0.25cm;
+}
+
+.Menu {
+    width: 25%;
+    float: left;
+    border: red 1px solid;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+}
+
+.Article {
+    width: 50%;
+    float: left;
+    margin: 0.25cm;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+aside{
+    width: 50%;
+    float: left;
+    margin: 0.25cm 
+}
+
+.Pie {
+    width: 100%;
+    float: left;
+    border: #1d4b4d 1px solid;
+}
+
+.Ima {
+    width: 20%;
+    height: 3.75cm;
+    float: right;
+    border: red 1px solid;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+    
+}
+
+/*
+body{
+    background-color: #201f22;
+}
